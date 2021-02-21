@@ -12,7 +12,7 @@ code(array[i])
 }
 },
 isMobile:function(){
-var mobileua=["Android","iPhone","SymbianOS","Windows Phone","iPad","iPod"];
+var mobileua=["android","iphone","symbianos","windows phone","ipad","ipod"];
 for(i=0;i<mobileua.length;i++){
 if(window.navigator.userAgent.toLowerCase().indexOf(mobileua[i])){
 var mo=true
